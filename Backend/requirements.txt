@@ -1,0 +1,7 @@
+Flask
+torch
+torchvision
+opencv-python
+pillow
+numpy
+flask-cors  # Optional, use this if you need to handle CORS issues
