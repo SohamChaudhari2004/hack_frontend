@@ -74,6 +74,12 @@ const Navbar = () => {
             >
               SERVILLENCE
             </Link>
+            <Link
+              to="/superres"
+              className="text-gray-700 hover:text-black dark:text-gray-300 dark:hover:text-white"
+            >
+              SATELLITE 
+            </Link>
 
             
           </div>

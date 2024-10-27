@@ -104,22 +104,22 @@ const cardsData = [
     },
     {
         title: 'Conversion of Image',
-        description: 'Description for Card 4',
+        description: 'Image conversion transforms an image from one format to another, adjusting file type, size, or resolution for compatibility across applications.',
         src: 'con3.png',
         route: '/convertion',
     },
     {
         title: 'Satellite Image Resolver Upcoming',
-        description: 'Description for Card 3',
+        description: 'Satellite Image Resolver converts satellite images into compatible formats, adjusting file type, size, or resolution for various applications.',
         src: 'satelite.png',
-        route: '/satellite-resolver',
+        route: '/superres',
     },
-    {
-        title: 'Medical Upcoming..',
-        description: 'Description for Card 5',
-        src: 'health.png',
-        route: '/medical-upcoming',
-    },
+    // {
+    //     title: 'Medical Upcoming..',
+    //     description: 'Description for Card 5',
+    //     src: 'health.png',
+    //     route: '/medical-upcoming',
+    // },
 ];
 
 const HeroHome = () => {

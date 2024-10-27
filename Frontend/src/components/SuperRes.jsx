@@ -75,7 +75,7 @@ function SuperRes() {
       
       {/* Display Original and Super-Resolved Images */}
       {originalImage && resultImage && (
-        <div className="flex gap-40 pt-20 pb-20 mx-40 justify-around mt-6">
+        <div className="border border-black flex gap-40 pt-20 pb-20 mx-40 justify-around mt-6">
           <div>
             <h2 className="text-lg font-semibold justify-center items-center mt-44 text-center mb-2">Original Image</h2>
             <img src={originalImage} alt="Original" className="w-full rounded-md" />

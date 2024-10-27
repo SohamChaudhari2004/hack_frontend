@@ -1,12 +1,20 @@
 # MAHADEV'S
 
-## Problem Statement
+## Project Name
 
-Upscaling involves increasing the resolution of an image or video sequence, making it appear larger or sharper. Traditional upscaling methods often result in artifacts and blurriness. AI-based upscaling techniques leverage advanced machine learning algorithms to produce higher-quality results.
+Satellite Image Resolver
+
+## Tagline
+
+AI-based upscaling techniques for enhancing images and videos, ensuring high-resolution visuals across various fields.
+
+## Problem Solved
+
+Upscaling involves increasing the resolution of an image or video sequence, making it appear larger or sharper. Traditional upscaling methods often result in artifacts and blurriness. This project addresses the need for high-resolution visuals across various fields, including satellite imagery, CCTV, and medical diagnostics, using advanced machine learning algorithms to produce higher-quality results.
 
 ## Project Overview
 
-This project aims to enhance images and videos using advanced AI-based upscaling techniques. The platform addresses the need for high-resolution visuals across various fields, including satellite imagery, CCTV, and medical diagnostics. It leverages state-of-the-art deep learning models like GANs and CNNs to provide high-quality upscaling with enhanced detail and reduced artifacts.
+This project aims to enhance images and videos using advanced AI-based upscaling techniques. It leverages state-of-the-art deep learning models like GANs and CNNs to provide high-quality upscaling with enhanced detail and reduced artifacts.
 
 ## Features
 
@@ -33,13 +41,13 @@ This project aims to enhance images and videos using advanced AI-based upscaling
 
 ## OUTPUT
 
-- IMAGE SUPER RESOLVER (ESRGAN)
+- **IMAGE SUPER RESOLVER (ESRGAN)**
 
 Input
 <br>
 <img src="assets/image.png" alt="Input image" width="200" height="200">
 
-Output()
+Output
 <br>
 <img src="assets/image-1.png" alt="alt text" width="600" height="500">
 
@@ -47,17 +55,36 @@ Output()
 
 Input
 <br>
-
-<img src="assets/image-2.png" alt="Input image" width="150" height=" 150">
+<img src="assets/image-2.png" alt="Input image" width="150" height="150">
 
 Output
 <br>
-
 <img src="assets/image-3.png" alt="alt text" width="500" height="500">
+
+
+- **SATELLITE IMAGE SUPER RESOLVER (ESRGAN)**
+
+Input
+<br>
+<img src="image.png" alt="Input image" width="300" height="200">
+
+Output
+<br>
+<img src="image-1.png" alt="alt text" width="600" height="400">
 
 # ---------------------------------------------------------------
 
-## Technologies/Frameworks Used
+Input
+<br>
+<img src="image-2.png" alt="Input image" width="200" height="150">
+
+Output
+<br>
+<img src="image-3.png" alt="alt text" width="600" height="400">
+
+# ---------------------------------------------------------------
+
+## Technologies Used
 
 ### Frontend
 
@@ -85,6 +112,10 @@ Output
 - **PIL (Pillow)**: For image manipulation.
 - **NumPy**: For numerical operations and handling arrays.
 
+## Links
+
+- Frontend(vercel) : [frontend](https://hack-frontend-eta.vercel.app/)
+
 ## How It Works
 
 ### Workflow
@@ -108,12 +139,11 @@ Output
 
 1. Clone the repository:
 
-   ```
+   ```bash
    git clone https://github.com/your-repo.git
    cd your-repo
-   ```
 
-   <br>
+   ```
 
 2. Backend Setup:
 
@@ -162,10 +192,14 @@ Output
 
 ## Acknowledgments
 
-**Xinntao/ESRGAN** : For providing the ESRGAN model used for image upscaling.
+- **Xinntao/ESRGAN** : For providing the ESRGAN model used for image upscaling.
+  <br>
+- **RetinaFace** : For robust face detection.
+  <br>
+- **GFPGAN and CodeFormer** : For state-of-the-art facial enhancement.
+
+- API's : [ConvertApi](https://www.convertapi.com/)
+  - used for converting jpg -> png & png -> jpg
+
 <br>
-**RetinaFace** : For robust face detection.
-<br>
-**GFPGAN and CodeFormer** : For state-of-the-art facial enhancement.
-<br>
-**Hackathon team** : Darshan Kakad, Ayush Duseja, Soham Chaudhari, Pranita Bannore.
+- **Hackathon team** : Darshan Kakad, Ayush Duseja, Soham Chaudhari, Pranita Bannore.
