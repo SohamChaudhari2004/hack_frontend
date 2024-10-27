@@ -61,7 +61,6 @@ Output
 <br>
 <img src="assets/image-3.png" alt="alt text" width="500" height="500">
 
-
 - **SATELLITE IMAGE SUPER RESOLVER (ESRGAN)**
 
 Input
