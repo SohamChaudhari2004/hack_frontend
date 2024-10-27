@@ -14,7 +14,7 @@ logging.basicConfig(level=logging.DEBUG)
 # Adjust the path to your ESRGAN directory
 sys.path.append('Backend\ESRGAN')  # Update this path to point to your ESRGAN directory
 
-from ESRGAN import RRDBNet_arch as arch
+import RRDBNet_arch as arch
 
 # Initialize the Flask app
 app = Flask(__name__)

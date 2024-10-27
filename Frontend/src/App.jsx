@@ -11,6 +11,7 @@ import ImageUpload from './components/ImageUpload';
 import ConvertToPNG from './components/ConvertToPNG';
 import SuperRes from './components/SuperRes';
 import ImageUpscalerApp from './components/ImageUpload';
+import Contact from './components/Contact';
 
 // Wrapper component to conditionally render Navbar
 function Layout() {
@@ -27,6 +28,7 @@ function Layout() {
         <Route path="/convert-jpg" element={<ConvertToJPG />} />
         <Route path="/convert_png" element={<ConvertToPNG />} />
         <Route path="/superres" element={<SuperRes />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </div>

@@ -110,7 +110,7 @@ const Footer = () => {
         <div class="grid grid-cols-1 gap-8 border-t border-gray-100 pt-8 sm:grid-cols-2 lg:grid-cols-4 lg:pt-16 dark:border-gray-800">
           <div>
             <p class="font-medium text-gray-900 dark:text-white">
-              Helpful Links
+              HELPFUL LINKS
             </p>
 
             <ul class="mt-6 space-y-4 text-sm">
@@ -119,7 +119,15 @@ const Footer = () => {
                  
                   class="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
                 >
-                  Contact
+                  CONTACT
+                </div>
+              </Link>
+              <Link to='/aboutus'>
+                <div
+                 
+                  class="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
+                >
+                  ABOUT US
                 </div>
               </Link>
 
