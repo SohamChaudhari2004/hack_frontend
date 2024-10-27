@@ -61,28 +61,43 @@ Output
 <br>
 <img src="assets/image-3.png" alt="alt text" width="500" height="500">
 
+
+
 - **SATELLITE IMAGE SUPER RESOLVER (ESRGAN)**
 
 Input
 <br>
-<img src="image.png" alt="Input image" width="300" height="200">
+<img src="test8.jpeg.jpg" alt="Input image" width="300" height="200">
 
 Output
 <br>
-<img src="image-1.png" alt="alt text" width="600" height="400">
-
-# ---------------------------------------------------------------
+<img src="test8.jpeg.jpg" alt="alt text" width="600" height="400">
 
 Input
 <br>
-<img src="image-2.png" alt="Input image" width="200" height="150">
+<img src="test6-1.jpg" alt="Input image" width="200" height="150">
 
 Output
 <br>
-<img src="image-3.png" alt="alt text" width="600" height="400">
+<img src="test6-1.jpg" alt="alt text" width="600" height="400">
 
 # ---------------------------------------------------------------
 
+- **CODEFORMER FOR FACIAL ENHANCEMENT**
+<br>
+<img src="code1.jpg" alt="alt text" width="200" height="150">
+<br>
+<br>
+<img src="code2.jpg" alt="alt text" width="300" height="300">
+<br>
+<br>
+<img src="code3.jpg" alt="alt text" width="300" height="300">
+<br>
+<br>
+<img src="code4.jpg" alt="alt text" width="300" height="300">
+
+
+# ----------------------------------------------------------------------------
 ## Technologies Used
 
 ### Frontend
