@@ -21,7 +21,7 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
 # Load the model
-model_path = 'D:\Finalhack2fut\Backend\ESRGAN\models\RRDB_ESRGAN_x4.pth'  # Path to the model file
+model_path = 'models/RRDB_ESRGAN_x4.pth'  # Path to the model file
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 # Initialize the model
